@@ -29,8 +29,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-iframe": "^1.8.0",
-    "react-iframe-mobile": "^1.0.5"
+    "react-iframe": "^1.8.0"
+    
   },
   "browserslist": {
     "production": [
