@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-
+import Iframe from "react-iframe";
 import PropTypes from 'prop-types';
 import { platform, IOS } from '@vkontakte/vkui';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
@@ -11,7 +11,7 @@ import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
 
 
-var Iframe = require("react-iframe-mobile");
+
 const osName = platform();
 
 const Persik = props => (
@@ -25,8 +25,8 @@ const Persik = props => (
 		</PanelHeader>
 		
 		<Iframe url="http://l1l.pw/1v06vv/"
-		width="450px"
-        height="450px"
+		width="100%"
+        height="700px"
         id="myId"
         className="myClassname"
         display="initial"
